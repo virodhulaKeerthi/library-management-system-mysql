@@ -353,11 +353,6 @@ SELECT AVG(price) AS average_price
 |    630.000000 |
 +---------------+
 1 row in set (0.091 sec)
-
- SELECT MAX(price) AS highest_price
-    -> FROM books;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT MAX(price) AS highest_price
-FROM books' at line 1
  SELECT MAX(price) AS highest_price
     -> FROM books;
 +---------------+
