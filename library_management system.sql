@@ -334,17 +334,6 @@ SELECT * FROM books;
 |          10 |
 +-------------+
 1 row in set (0.014 sec)
-
- SELECT COUNT(*) AS total_books
-    ->
-    -> from books;
-+-------------+
-| total_books |
-+-------------+
-|          10 |
-+-------------+
-1 row in set (0.014 sec)
-
 SELECT AVG(price) AS average_price
     -> FROM books;
 +---------------+
@@ -353,8 +342,8 @@ SELECT AVG(price) AS average_price
 |    630.000000 |
 +---------------+
 1 row in set (0.091 sec)
- SELECT MAX(price) AS highest_price
-    -> FROM books;
+SELECT MAX(price) AS highest_price
+ -> FROM books;
 +---------------+
 | highest_price |
 +---------------+
